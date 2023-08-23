@@ -9,6 +9,13 @@ $logged_in = Session::isLoggedIn();
   <link rel="stylesheet" type="text/css" href="https://bootswatch.com/5/superhero/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="/css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="/manifest.json" />
+  <!-- ios support -->
+  <link rel="apple-touch-icon" href="/icon-192x192.png" />
+  <link rel="apple-touch-icon" href="/icon-384x384.png" />
+  <link rel="apple-touch-icon" href="/icon-512x512.png" />
+  <meta name="apple-mobile-web-app-status-bar" content="#f59042" />
+  <meta name="theme-color" content="#f59042" />
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
